@@ -24,17 +24,28 @@ try
 	
 	WebUI.maximizeWindow()
 	
-	WebUI.setText(findTestObject('Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+	WebUI.setText(findTestObject('Object Repository/Make Appoinment/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 	CustomKeywords.'com.katalon.extent.report.ExtentReport.attachLog'("Enter Username successfully.")
 	
-	WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+	WebUI.setEncryptedText(findTestObject('Object Repository/Make Appoinment/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 	CustomKeywords.'com.katalon.extent.report.ExtentReport.attachLog'("Enter Password successfully.")
 	
-	WebUI.click(findTestObject('Object Repository/Login/Page_CURA Healthcare Service/button_Login'))
+	WebUI.click(findTestObject('Object Repository/Make Appoinment/Page_CURA Healthcare Service/button_Login'))
 	CustomKeywords.'com.katalon.extent.report.ExtentReport.attachLog'("Click on Login button successfully.")
 	
-	WebUI.verifyTextPresent("Make Appointment", false)
-	CustomKeywords.'com.katalon.extent.report.ExtentReport.attachLog'("Logged into successfully.")
+	WebUI.click(findTestObject('Object Repository/Make Appoinment/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34'))
+	CustomKeywords.'com.katalon.extent.report.ExtentReport.attachLog'("Visit Date selected successfully.")
+	
+	WebUI.click(findTestObject('Object Repository/Make Appoinment/Page_CURA Healthcare Service/td_8'))
+	
+	WebUI.setText(findTestObject('Object Repository/Make Appoinment/Page_CURA Healthcare Service/textarea_Comment_comment'), 'Test appointment booked for today')
+	CustomKeywords.'com.katalon.extent.report.ExtentReport.attachLog'("Enter comment successfully.")
+	
+	WebUI.click(findTestObject('Object Repository/Make Appoinment/Page_CURA Healthcare Service/button_Book Appointment'))
+	CustomKeywords.'com.katalon.extent.report.ExtentReport.attachLog'("Click on Book Appointment button successfully.")
+	
+	WebUI.verifyElementText(findTestObject('Object Repository/Make Appoinment/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 'Appointment Confirmation')
+	CustomKeywords.'com.katalon.extent.report.ExtentReport.attachLog'("Appointment Booked successfully.")
 	
 	WebUI.closeBrowser()
 	CustomKeywords.'com.katalon.extent.report.ExtentReport.attachLog'("Browser closed successfully.")
@@ -44,3 +55,4 @@ catch (Exception ex)
 	CustomKeywords.'com.katalon.extent.report.ExtentReport.addScreenshot'()
 	WebUI.closeBrowser()
 }
+

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite01_Login,Chrome 129.0.0.0,,,08-10-2024 15:02:32,08-10-2024 15:02:41,8.722s,PASSED
+,,,,,,,
+Test Cases/TC01_LoginTest/LoginWithValidCredentails,Chrome 129.0.0.0,,,08-10-2024 15:02:34,08-10-2024 15:02:41,7.228s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 129.0.0.0,,,08-10-2024 15:02:34,08-10-2024 15:02:34,0.124s,PASSED
+try,Chrome 129.0.0.0,,,08-10-2024 15:02:34,08-10-2024 15:02:41,6.873s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 129.0.0.0,,,08-10-2024 15:02:41,08-10-2024 15:02:41,0.012s,PASSED

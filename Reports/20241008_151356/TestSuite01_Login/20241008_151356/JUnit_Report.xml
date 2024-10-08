@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite01_Login" time="17.795" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite01_Login" tests="2" failures="0" errors="0" time="17.795" skipped="0" timestamp="08-10-2024T15:14:06" hostname="JXPatel - CPC-JayPa-Z4O0V.expresspersonnel.com" id="Test Suites/TestSuite01_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\KatalonStudioProject\\KatalonGitProj\\Reports\\20241008_151356\\TestSuite01_Login\\20241008_151356"/>
+         <property name="logFiles" value="C:\\KatalonStudioProject\\KatalonGitProj\\Reports\\20241008_151356\\TestSuite01_Login\\20241008_151356\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="JXPatel - CPC-JayPa-Z4O0V.expresspersonnel.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="172.19.0.23"/>
+         <property name="sessionId" value="012bc3ec18e492c7fc834f249f17c06a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC01_LoginTest/LoginWithValidCredentails" time="7.921" classname="Test Cases/TC01_LoginTest/LoginWithValidCredentails" status="PASSED">
+         <system-out><![CDATA[08-10-2024T15:14:07 - [TEST_CASE][PASSED] - Test Cases/TC01_LoginTest/LoginWithValidCredentails: Test Cases/TC01_LoginTest/LoginWithValidCredentails
+
+08-10-2024T15:14:07 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: com.katalon.extent.report.ExtentReport.startEReport is PASSED
+
+08-10-2024T15:14:07 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.startEReport(testCaseContext): com.katalon.extent.report.ExtentReport.startEReport is PASSED
+
+08-10-2024T15:14:07 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.startEReport is PASSED
+
+08-10-2024T15:14:08 - [TEST_STEP][PASSED] - try: com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:08 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/profile.php#login'
+
+08-10-2024T15:14:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-10-2024T15:14:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-10-2024T15:14:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/profile.php#login'
+
+08-10-2024T15:14:13 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("URL launched successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:13 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-10-2024T15:14:13 - [MESSAGE][PASSED] - Current window maximized
+
+08-10-2024T15:14:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+08-10-2024T15:14:13 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Username_username'
+
+08-10-2024T15:14:14 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("Enter Username successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:14 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+08-10-2024T15:14:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_CURA Healthcare Service/input_Password_password'
+
+08-10-2024T15:14:14 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("Enter Password successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:14 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+08-10-2024T15:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_CURA Healthcare Service/button_Login' is clicked on
+
+08-10-2024T15:14:15 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("Click on Login button successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:15 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:15 - [TEST_STEP][PASSED] - verifyTextPresent("Make Appointment", false): Text 'Make Appointment' is present on page 
+
+08-10-2024T15:14:15 - [MESSAGE][PASSED] - Text 'Make Appointment' is present on page 
+
+08-10-2024T15:14:15 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("Logged into successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:15 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-10-2024T15:14:15 - [MESSAGE][PASSED] - Browser is closed
+
+08-10-2024T15:14:15 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("Browser closed successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:15 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: com.katalon.extent.report.ExtentReport.takeScreenshotFailure is PASSED
+
+08-10-2024T15:14:15 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.takeScreenshotFailure(testCaseContext): com.katalon.extent.report.ExtentReport.takeScreenshotFailure is PASSED
+
+08-10-2024T15:14:15 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.takeScreenshotFailure is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC01_LoginTest/MakeAnAppointment" time="8.356" classname="Test Cases/TC01_LoginTest/MakeAnAppointment" status="PASSED">
+         <system-out><![CDATA[08-10-2024T15:14:15 - [TEST_CASE][PASSED] - Test Cases/TC01_LoginTest/MakeAnAppointment: Test Cases/TC01_LoginTest/MakeAnAppointment
+
+08-10-2024T15:14:15 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: com.katalon.extent.report.ExtentReport.startEReport is PASSED
+
+08-10-2024T15:14:15 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.startEReport(testCaseContext): com.katalon.extent.report.ExtentReport.startEReport is PASSED
+
+08-10-2024T15:14:15 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.startEReport is PASSED
+
+08-10-2024T15:14:15 - [TEST_STEP][PASSED] - try: com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:15 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/profile.php#login'
+
+08-10-2024T15:14:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-10-2024T15:14:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-10-2024T15:14:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/profile.php#login'
+
+08-10-2024T15:14:19 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("URL launched successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:19 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-10-2024T15:14:19 - [MESSAGE][PASSED] - Current window maximized
+
+08-10-2024T15:14:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Make Appoinment/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/input_Username_username'
+
+08-10-2024T15:14:20 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/input_Username_username'
+
+08-10-2024T15:14:20 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("Enter Username successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:20 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Make Appoinment/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/input_Password_password'
+
+08-10-2024T15:14:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/input_Password_password'
+
+08-10-2024T15:14:20 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("Enter Password successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:20 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appoinment/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/button_Login' is clicked on
+
+08-10-2024T15:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/button_Login' is clicked on
+
+08-10-2024T15:14:21 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("Click on Login button successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:21 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appoinment/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+08-10-2024T15:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+08-10-2024T15:14:21 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("Visit Date selected successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:21 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appoinment/Page_CURA Healthcare Service/td_8")): Object: 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/td_8' is clicked on
+
+08-10-2024T15:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/td_8' is clicked on
+
+08-10-2024T15:14:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Make Appoinment/Page_CURA Healthcare Service/textarea_Comment_comment"), "Test appointment booked for today"): Text 'Test appointment booked for today' is set on object 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+08-10-2024T15:14:23 - [MESSAGE][PASSED] - Text 'Test appointment booked for today' is set on object 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+08-10-2024T15:14:23 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("Enter comment successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:23 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Make Appoinment/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+08-10-2024T15:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+08-10-2024T15:14:23 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("Click on Book Appointment button successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:23 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Make Appoinment/Page_CURA Healthcare Service/h2_Appointment Confirmation"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+08-10-2024T15:14:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Make Appoinment/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+08-10-2024T15:14:23 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("Appointment Booked successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:23 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-10-2024T15:14:24 - [MESSAGE][PASSED] - Browser is closed
+
+08-10-2024T15:14:24 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.attachLog("Browser closed successfully."): com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:24 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.attachLog is PASSED
+
+08-10-2024T15:14:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: com.katalon.extent.report.ExtentReport.takeScreenshotFailure is PASSED
+
+08-10-2024T15:14:24 - [TEST_STEP][PASSED] - com.katalon.extent.report.ExtentReport.takeScreenshotFailure(testCaseContext): com.katalon.extent.report.ExtentReport.takeScreenshotFailure is PASSED
+
+08-10-2024T15:14:24 - [MESSAGE][PASSED] - com.katalon.extent.report.ExtentReport.takeScreenshotFailure is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-10-2024T15:14:06 - [TEST_SUITE][PASSED] - TestSuite01_Login: Test Cases/TC01_LoginTest/MakeAnAppointment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
